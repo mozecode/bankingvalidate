@@ -1,0 +1,25 @@
+form{
+	width:70%;
+	margin:0 auto;
+}
+
+input[type="email"]:valid,
+input[type="url"]:valid {
+ 
+ 	background-color:lightgreen;
+	
+}
+
+
+input[type="email"]:invalid,
+input[type="url"]:invalid {
+ 
+ 	background-color:#FF4643;
+	
+}
+
+/*make sure to add "required" 
+ to end of inputs too*/
+
+
+
